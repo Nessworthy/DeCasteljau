@@ -1,0 +1,26 @@
+{
+  "name": "nessworthy/decasteljau",
+  "description": "A stupid way of using De Casteljau's algorithm to calculate control points of a segment in a cubic bezier curve.",
+  "type": "library",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Sean Nessworthy",
+      "email": "sean@nessworthy.me"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nessworthy\\DeCasteljau\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nessworthy\\DeCasteljau\\Test\\": "tests/"
+    }
+  }
+}
